@@ -11,8 +11,8 @@ font-style: normal;
 heder{height:1940px;}
 .bun{ height:100%;
 	width: 100%;
-background-image : linear-gradient(to bottom, #6f514c, #6f514c 20px, transparent 20px, transparent 8px);  /* 幅2の線を作る */
-  background-size: 1px 40px;          /* グラデーションの幅・高さを指定 */
+background-image : linear-gradient(to bottom, #6f514c, #6f514c 2px, transparent 2px, transparent 8px);  /* 幅2の線を作る */
+  background-size: 1px 15px;          /* グラデーションの幅・高さを指定 */
   background-position: top 500px left 95%;  /* 背景の開始位置を指定 */
   background-repeat: repeat-y;       /* 横向きにのみ繰り返す */
 	
@@ -91,13 +91,47 @@ height:21551px }
 	-webkit-writing-mode: vertical-rl;
 	writing-mode: vertical-rl;	
 height:6867px }
-.item8{display: flex;
+.bun8{display: flex;
 	width: 50%;
 	justify-content:center
 -ms-writing-mode: tb-rl;
 	-webkit-writing-mode: vertical-rl;
 	writing-mode: vertical-rl;	
-height:528px }
+height:30px ;
+padding-top:100px ;}
+.bun9{display: flex;
+	width: 50%;
+	justify-content:center
+-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;	
+height:208px ;
+padding-top:150px ;}
+.bun10{display: flex;
+	width: 50%;
+	justify-content:center
+-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;	
+	height:30px;
+	padding-top:200px;}
+.bun11{display: flex;
+	width: 50%;
+	justify-content:center
+-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;	
+height:128px ;
+padding-top:150px;}
+.bun12{display: flex;
+	width: 50%;
+	justify-content:center
+-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;	
+	height:30px;
+	padding-top:200px;
+	padding-bottom:150px;}
 .item9{display: flex;
 	width: 50%;
 	justify-content:center
